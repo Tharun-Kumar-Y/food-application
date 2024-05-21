@@ -31,17 +31,18 @@ const Header = () => {
   return (
     <div className="flex justify-between bg-orange-400 shadow-lg mb-2 dark:bg-black dark:text-white md:bg-red-700 lg:bg-green-500 2xl:bg-pink-600">
       <Link to={"/"}>
-        <div>
+        <div className="   flex flex-row justify-between">
           <img
             className="header-logo w-[100px]"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9xIUhlo7cJ4TZqp7GJSWO6dav22n2O7n2_A&s"
           />
+          <h1 className="mt-10 ml-9 text-xl font-bold from-neutral-400">NomNom Foodies</h1>
         </div>
       </Link>
       <div className="flex items-center">
         <ul className="flex p-4 m-4">
-          <li className="px-3 font-bold">Offers</li>
-          <li className="px-3">Help</li>
+          {/* <li className="px-3 font-bold">Offers</li> */}
+          {/* <li className="px-3">Help</li> */}
 
           <li className="px-3 font-bold">
             <Link to={"/about"}>about</Link>

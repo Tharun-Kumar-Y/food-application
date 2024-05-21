@@ -76,7 +76,7 @@ export default function Cards() {
             Top Rated Restaurants
           </button>
         </div>
-        <div className="flex items-center">
+        {/* <div className="flex items-center">
           <input
             className="border-black "
             value={loggedInUser}
@@ -87,7 +87,7 @@ export default function Cards() {
             }}
             placeholder="update username"
           />
-        </div>
+        </div> */}
       </div>
       <div className="cards flex flex-wrap justify-around">
         {serchList.length > 0 ? (
